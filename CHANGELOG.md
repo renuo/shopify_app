@@ -26,6 +26,8 @@ Unreleased
 * Add special headers when returning 401s from LoginProtection. [#1450](https://github.com/Shopify/shopify_app/pull/1450)
 * Add a new `billing` configuration which takes in a `ShopifyApp::BillingConfiguration` object and checks for payment on controllers with `Authenticated`. [#1455](https://github.com/Shopify/shopify_app/pull/1455)
 
+* Fix "allowed hosts" configuration for ngrok URLs including a region such as `eu`.
+
 19.0.2 (April 27, 2022)
 ----------
 
